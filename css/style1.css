@@ -65,6 +65,7 @@
 .burger-container{
     cursor: pointer;
     z-index: 3;
+    padding: 0 0  2px 2px;
 }
 
 .bar1, .bar2, .bar3{
