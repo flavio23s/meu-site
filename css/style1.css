@@ -112,6 +112,7 @@
 .section-top-banner .site-container {
     position: relative;
     z-index: 1;
+    text-align: left;
 }
 
 .top-banner_inner {
