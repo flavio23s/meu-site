@@ -95,7 +95,7 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    background-image: url("../images/flavio.jpg");
+    background-image: url("../image/eu.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -122,10 +122,22 @@
 .top-banner_inner .top-banner_text {
     margin-left: 54px;
 }
-.top-banner_innerx .top-banner_h2 {
+.top-banner_inner .top-banner_h2 {
     font-size: 74px;
     letter-spacing: 3px;
     color: #fe0000;
+}
+.top-banner_span {
+    font-size: 40px;
+    color: aliceblue;
+}
+.top-banner_span2 {
+    font-size: 30px;
+    color: aliceblue;
+}
+#paragrafo-1 {
+    font-size: 2rem;
+    color: aliceblue;
 }
 .top-banner_inner .top-banner_image {
     font-size: 0;
