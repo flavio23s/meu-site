@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
 .site-container {
     width: 0 auto;
@@ -32,8 +32,7 @@
     left: 0px;
     background: #000;
     opacity: 0.9;
-    }
-
+}
 .main-navigation .main-navigation-ul{
     position: absolute;
     top: 50%;
@@ -157,4 +156,3 @@
 .a-button:hover, .a-button:focus {
     color: #777;
 }
-
