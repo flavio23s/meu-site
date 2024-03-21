@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body {
+    
+    background-color: antiquewhite;
+    opacity: 0,9;
+}
 .site-container {
     width: 0 auto;
     margin: 0 auto;
@@ -13,7 +18,7 @@
 }
 .navigation {
     position: absolute;
-    top:2.6%;
+    top: 2.6%;
     width: 100%;
     z-index: 2;
 }
@@ -31,7 +36,7 @@
     top: 0px;
     left: 0px;
     background: #000;
-    opacity: 0.9;
+    opacity: 0.6;
 }
 .main-navigation .main-navigation-ul{
     position: absolute;
@@ -62,10 +67,9 @@
     color: #ff0000ff;
 }
 
-.burger-container{
+.burger-container {
     cursor: pointer;
     z-index: 3;
-    padding: 0 0  2px 2px;
 }
 
 .bar1, .bar2, .bar3{
@@ -95,7 +99,7 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    background-image: url("../images/flavio.jpg");
+    background-image: url("../images/flavio.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -159,12 +163,10 @@
     color: #777;
 }
 
-
 .services {
     position: relative;
     display: flex;
     align-items: flex-end;
-    background-image: url("../images/top-banner.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -207,16 +209,10 @@
 }
 .servicos_card {
     display: flex;
-    vertical-align: top;
-    border-radius: 0.3rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);   
-    transition: all 0.3s ease-in-out;
     align-items: center;
 }
-.servico_card_item {
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
+.servicos_card .servico_card_item {
+    margin-left: 34px;
 }
 .servico_title {
     font-size: 1.5rem;
@@ -228,4 +224,8 @@
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
     line-height: 1.4;
+}
+#lista {
+    font-size: 1.5rem;
+    color: aliceblue;
 }
