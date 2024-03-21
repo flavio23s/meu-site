@@ -133,15 +133,15 @@ body {
     color: #fe0000;
 }
 .top-banner_span {
-    font-size: 30px;
+    font-size: 25px;
     color: aliceblue;
 }
 .top-banner_span2 {
-    font-size: 30px;
+    font-size: 20px;
     color: aliceblue;
 }
-#paragrafo-1 {
-    font-size: 25px;
+.top-banner_paragrafo {
+    font-size: 15px;
     color: aliceblue;
 }
 .top-banner_inner .top-banner_image {
