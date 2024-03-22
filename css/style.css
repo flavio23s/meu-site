@@ -123,20 +123,20 @@
     margin-left: 34px;
 }
 .top-banner_inner .top-banner_h2 {
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 3px;
     color: #fe0000;
 }
 .top-banner_span {
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(0, 0, 212);
 }
 .top-banner_span2 {
-    font-size: 20px;
+    font-size: 25px;
     color: aliceblue;
 }
 #paragrafo {
-    font-size: 15px;
+    font-size: 18px;
     color: aliceblue;
 }
 .top-banner_inner .top-banner_image {
@@ -158,6 +158,6 @@
     color: #777;
 }
 #lista {
-    font-size: 15px;
+    font-size: 20px;
     color: aliceblue;
 }
