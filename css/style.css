@@ -129,7 +129,7 @@
 }
 .top-banner_span {
     font-size: 25px;
-    color: aliceblue;
+    color: rgb(0, 0, 212);
 }
 .top-banner_span2 {
     font-size: 20px;
@@ -156,69 +156,6 @@
 
 .a-button:hover, .a-button:focus {
     color: #777;
-}
-
-.services {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    background-position: center;
-    background-size: cover;
-}
-.services:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.9;
-}
-.services .site-container {
-    position: relative;
-    z-index: 1;
-    text-align: left;
-}
-
-@media (min-width:  768px) { /* Makes the services responsive on larger screens */
-    .services {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    
-    .services h1 { width: 60%; margin-bottom:  2rem;}
-    .services p   { width:  35%; margin-bottom:  2rem;}
-    .services img{ max-height: 20rem; float: right;}
-    .services:after {display: none;}
-}
-/* This is a style block that contains a div element with the class "container" and a section element with the id "about" and class "services". */
-.services_title {
-    font-size: 3rem;
-    font-family: 'Raleway', sans-serif;
-    color: #e40000;
-    letter-spacing: -0.2;
-    line-height: 1.4;
-    font-weight: bold;
-}
-.servicos_card {
-    display: flex;
-    align-items: center;
-}
-.servicos_card .servico_card_item {
-    margin-left: 34px;
-}
-.servico_title {
-    font-size: 1.5rem;
-    font-weight: normal;
-    color: #333;
-}
-.servico_desc {
-    color: #333333;
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    line-height: 1.4;
 }
 #lista {
     font-size: 15px;
