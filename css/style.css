@@ -139,11 +139,6 @@
     font-size: 20px;
     color: aliceblue;
 }
-.top-banner_image {
-    border-radius:  10px;
-    width: 520px;
-    height: 580px;
-}
 .top-banner_inner .top-banner_image {
     font-size: 0;
 }
