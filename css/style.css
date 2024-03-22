@@ -141,8 +141,6 @@
 }
 .top-banner_image {
     border-radius:  10px;
-    overflow:hidden;
-    max-width: 1250px;
     width: 520px;
     height: 580px;
 }
