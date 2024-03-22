@@ -114,54 +114,30 @@
          </div>
      </div>
     </section>
-<!--
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-12">
-                    <p class="paragrafo-4">O que é?</p>
-                    <h2 class="paragrafo-1">Descrição do Serviço</h2>
-                    <p class="paragrafo-3">{!! $service->description !!}</p>
-                </div>
-                <aside class="col-md
-                    md-offsets-4 col-sm-12 sidebar sidebar_modificado">
-                    <ul class="sidebar_list">
-                        <li><a href="#descricao" class="scrollto .a-button a-button_azul">Ir para descrição</a></li>
-                        <li><span class="separador separador_verde"></span></li>
-                        <li><a href="#orcamento" class="scrollto .a-button a-button_amarelo">Solicitar orçamento</a>
-                        </li>
-                        <li><strong>Custo:</strong> R${{number_format($service->price, 2, ',', '.')}}</li>
-                        <li><span class="separador separador_vermelho"></span></li>
-                        @if(Auth::check())
-                        @if(!$userService)
-                        <li><a href="/cadastrar-serviço/{{$service->id}}"
-                                class="btn btn-primary btn-lg a-button a-button_amarelo">
-                        <li><a href="/cadastrar-serviço/{{$service->id}}"
-                                class="btn btn-primary btn-lg a-button a-button_amarelo">
-                        <li><a href="/serviços/inscreverse/{{$service->id}}"
-                                class="btn btn-primary btn-lg a-button a-button_amarelo">In
-                        <li><a href="/cadastrar-serviço/{{$service->id}}"
-                                class="btn btn-primary btn-lg a-button a-button_amarelo">
-    </section>
- -->
-    <!--contato
-    <section class="contact site-container">
-        <h2 class="contact_title">
-            Contato
-        </h2>
-        <form action="" method="post" class="contact_form">preencha a lista de espera</form>
+<!-- formulário--> 
 
-        </h2>
-    </section>
-    </div>
-    </div>
-    </div>
-    </h2>
-    </section>
+<section class="formulario" id="contato">
+    <h2>Entre em contato conosco!</h2>
+<form class="form" action="" method="get">
+    <!-- nome -->
+    <label for="nome">Nome:</label><br/>
+     <input type="text" class="nome" required /><br/><br/>
+     <!-- email -->
+     <label for="email">E-mail * :</label><br/>
+    <input type="text" class="email" required /><br/><br/>
+    <!-- telefone -->
+    <label for="telefone">Telefone (opcional) :</label><br/> 
+    <input type="text" class="telefone" required /><br/><br/>
+    <!-- mensagem -->
+    <label for="mensagem">Mensagem (Opcional):</label><br/> 
+        <input type="text" class="mensagem"></textarea><br/><br/>
+    <button>Enviar</button>
+  </form>
 
--->
+  <div class="resultado"></div>
 
-
+</section>
+    <script src = js/script.js></script>
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/main.js"></script>
 </body>
