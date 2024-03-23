@@ -131,18 +131,13 @@
         </a>
     </div>
     <div class="form">
-    <form method="post" action="" name="formulario-contato" >
-        <!-- nome -->
-        <input type="text" name="nome" placeholder="Nome" >
-        <!-- email -->
-        <input type="text" name="email" placeholder="Email">
-        <!-- telefone -->
-        <input type="text" name="telefone" placeholder="Telefone">
-        <!-- mensagem -->
-        <textarea name="mensagem" rows="7" placeholder="Sua mensagem"></textarea>
-        <!-- botão enviar -->
-        <input type="submit" value="Enviar" id="enviar">
-    </form>
+     <form action="https://formspree.io/seu-email-aqui" method="POST">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <input type="submit" value="Enviar">
+</form>
 </div>
     
     </section>
