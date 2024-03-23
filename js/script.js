@@ -1,45 +1,17 @@
-function meuEscopo() {
-    const form = document.querySelector('.form');
-    const resultado = document.querySelector('.resultado');
+const script_do_google = 'https://script.google.com/macros/s/AKfycbwi013dWzf0fe3wsKCBVQEVBapD5cxWQxAwvhTZ0k7wEWl_zB0WeZZe1TB_FaKhS6he/exec';
+const dados_do_formulario = document.forms['formulario-contato'];
 
-    const pessoas = [];
+dados_do_formulario.addEventListener( 'submit', function (e) {
+    e.preventDefault(); // evita que o formulário seja enviado pelo navegador padrão
 
-    function recebeEventoForm(evento) {
-        evento.preventDefault();
-
-        const nome = form.querySelector('#nome');
-        const email = form.querySelector('#email');
-        const telefone = form.querySelector('#telefone');
-        const mensagem = form.querySelector('#mensagem');
-
-        pessoas.push({
-            nome: nome.value,
-            email: email.value,
-            telefone: telefone.value,
-            mensagem: mensagem.value
-        });
-
-        console.log(pessoas);
-
-        resultado.innerHTML += `<p>${nome.value} ${email.value} ${telefone.value} ${mensagem.value}</p>`;
-    }
-
-    form.addEventListener('submit', recebeEventoForm);
-}
-
-meuEscopo();
-
-
-function enviaDadosParaSheet(pessoa) {
-    fetch('https://script.google.com/macros/s/AKfycbylpNNj7Bg6drl77HEZ6zOd45mtHQGinkZkozRKMwjedImIJjVfByZf0fdOkzwb-0MM/exec', { // Substitua com sua URL copiada
-        method: 'POST',
-        mode: 'no-cors', // Importante para evitar problemas com CORS
-        redirect: 'follow',
-        headers: new Headers({
-            'Content-Type': 'application/json'
-        }),
-        body: JSON.stringify(pessoa)
+    fetch(script_do_google, {method: 'POST', mode: 'no-cors', body: new FormData(dados_do_formulario) })
+    .then(response => {
+        //Se os dados forem enviados corretamente, será enviada uma mensagem de sucesso
+        alert('Dados enviados com sucesso!', response);
+        dados_do_formulario.reset();
     })
-    .then(response => console.log('Dados enviados com sucesso.'))
-    .catch(error => console.error('Erro ao enviar dados:', error));
-}
+    .catch(error =>
+        //Se houver algum erro no envio, será exibida a mensagem abaixo
+        console.error('Erro no envio dos dados!', error)
+    );
+});
