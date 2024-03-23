@@ -181,3 +181,7 @@ footer {
 .whatsapp-btn:hover, .instagram-btn:hover, .linkedin-btn:hover {
     opacity: 0.9;
 }
+.social-links a {
+    display: block;
+    margin-bottom: 10px; /* Ajuste a margem como desejar */
+}
