@@ -130,22 +130,20 @@
             <i class="fab fa-linkedin"></i> LinkedIn
         </a>
     </div>
-    <form class="form" action="" method="get">
+    <div class="form">
+    <form method="post" action="" name="formulario-contato" >
         <!-- nome -->
-        <label for="nome">Nome:</label><br/>
-        <input type="text" id="nome" required /><br/><br/>
+        <input type="text" name="nome" placeholder="Nome" >
         <!-- email -->
-        <label for="email">E-mail * :</label><br/>
-        <input type="text" id="email" required /><br/><br/>
+        <input type="text" name="email" placeholder="Email">
         <!-- telefone -->
-        <label for="telefone">Telefone (opcional) :</label><br/>
-        <input type="text" id="telefone" /><br/><br/>
+        <input type="text" name="telefone" placeholder="Telefone">
         <!-- mensagem -->
-        <label for="mensagem">Mensagem (Opcional):</label><br/>
-        <input type="text" id="mensagem" /><br/><br/>
-        <button type="submit">Enviar</button>
+        <textarea name="mensagem" rows="7" placeholder="Sua mensagem"></textarea>
+        <!-- botão enviar -->
+        <input type="submit" value="Enviar" id="enviar">
     </form>
-   <!-- <div class="resultado"></div> -->
+</div>
     
     </section>
 
