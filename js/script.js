@@ -1,17 +1,15 @@
-const script_do_google = 'https://script.google.com/macros/s/AKfycbwi013dWzf0fe3wsKCBVQEVBapD5cxWQxAwvhTZ0k7wEWl_zB0WeZZe1TB_FaKhS6he/exec';
-const dados_do_formulario = document.forms['formulario-contato'];
+<script>
+    function initMap() {
+        var minhaLocalizacao = {lat: -27.6222727 , lng: -48.6785527}; // Substitua pelas suas coordenadas
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: minhaLocalizacao
+        });
+        var marker = new google.maps.Marker({
+            position: minhaLocalizacao,
+            map: map
+        });
+    }
+</script>
 
-dados_do_formulario.addEventListener( 'submit', function (e) {
-    e.preventDefault(); // evita que o formulário seja enviado pelo navegador padrão
-
-    fetch(script_do_google, {method: 'POST', mode: 'no-cors', body: new FormData(dados_do_formulario) })
-    .then(response => {
-        //Se os dados forem enviados corretamente, será enviada uma mensagem de sucesso
-        alert('Dados enviados com sucesso!', response);
-        dados_do_formulario.reset();
-    })
-    .catch(error =>
-        //Se houver algum erro no envio, será exibida a mensagem abaixo
-        console.error('Erro no envio dos dados!', error)
-    );
-});
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDU0TPXzGefisXl9ygUuYeO3zYH9e9aS0&callback=initMap"></script>
