@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Política de Privacidade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            line-height: 1.6;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidade</h1>
+
+    <h2>1. Introdução</h2>
+    <p>Agradecemos por escolher [Nome da sua empresa/website]. Estamos comprometidos em proteger a sua privacidade e dados pessoais. Esta Política de Privacidade explica como coletamos, usamos, compartilhamos e protegemos as informações dos usuários ao visitar [URL do seu site].</p>
+
+    <h2>2. Informações Coletadas</h2>
+    <p>Nós coletamos informações que você nos fornece diretamente, como nome, e-mail, telefone, etc., quando você preenche formulários em nosso site ou se comunica conosco. Automaticamente, coletamos também informações sobre seu dispositivo e uso do nosso site através de cookies e tecnologias similares.</p>
+
+    <h2>3. Uso das Informações</h2>
+    <p>As informações coletadas são utilizadas para:</p>
+    <ul>
+        <li>Fornecer, operar e manter nosso site;</li>
+        <li>Melhorar, personalizar e expandir nosso site;</li>
+        <li>Entender e analisar como você usa nosso site;</li>
+        <li>Desenvolver novos produtos, serviços, funcionalidades e funcionalidades;</li>
+        <li>Comunicar com você, diretamente ou através de um dos nossos parceiros, incluindo para atendimento ao cliente, para fornecer atualizações e outras informações relacionadas ao site, e para fins de marketing e promoção;</li>
+        <li>Enviar e-mails.</li>
+    </ul>
+
+    <h2>4. Compartilhamento de Informações</h2>
+    <p>Seu dados pessoais não são compartilhados com terceiros, exceto conforme necessário para fornecer nossos serviços, cumprir com a lei, ou proteger nossos direitos e segurança.</p>
+
+    <h2>5. Retenção de Dados</h2>
+    <p>Retemos suas informações pessoais pelo tempo necessário para fornecer os serviços solicitados e conforme necessário para cumprir nossas obrigações legais.</p>
+
+    <h2>6. Segurança</h2>
+    <p>Tomamos medidas razoáveis para proteger suas informações pessoais contra perda, roubo e uso não autorizado, divulgação ou alteração.</p>
+
+    <h2>7. Seus Direitos</h2>
+    <p>Você tem o direito de acessar, corrigir ou excluir suas informações pessoais que mantemos. Em algumas jurisdições, você também tem o direito de restringir o processamento de suas informações.</p>
+
+    <h2>8. Alterações à Política de Privacidade</h2>
+    <p>Podemos atualizar nossa Política de Privacidade de tempos em tempos. Recomendamos que você reveja periodicamente esta página para quaisquer mudanças.</p>
+
+    <h2>9. Contato</h2>
+    <p>Se tiver perguntas sobre esta Política de Privacidade, entre em contato conosco em: [Fsdigital23@gmail.com/(84)98488603.</p>
+</body>
+</html>
