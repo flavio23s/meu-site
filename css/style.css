@@ -185,3 +185,8 @@ footer {
     display: block;
     margin-bottom: 10px; /* Ajuste a margem como desejar */
 }
+#map {
+    height: 400px;
+    width: 100%;
+}
+
